@@ -1,0 +1,157 @@
+{
+  "design_system": {
+    "identity": {
+      "name": "Iron Beast Gym",
+      "tone": "Bold, Energetic, Powerful, Motivating",
+      "archetype": "The Performance Pro",
+      "theme_mode": "dark"
+    },
+    "typography": {
+      "primary_font": "Oswald, sans-serif",
+      "secondary_font": "Manrope, sans-serif",
+      "scale": {
+        "h1": "text-6xl md:text-8xl font-bold uppercase tracking-tighter leading-none",
+        "h2": "text-4xl md:text-6xl font-bold uppercase tracking-tight",
+        "h3": "text-2xl md:text-3xl font-semibold uppercase tracking-wide",
+        "body": "text-base md:text-lg text-gray-300 leading-relaxed",
+        "caption": "text-sm text-gray-400 tracking-widest uppercase"
+      }
+    },
+    "colors": {
+      "palette": {
+        "background": "#09090b",
+        "foreground": "#ffffff",
+        "primary": "#dc2626",
+        "primary_hover": "#b91c1c",
+        "secondary": "#27272a",
+        "accent": "#ef4444",
+        "muted": "#18181b",
+        "border": "#27272a"
+      },
+      "usage": {
+        "body_bg": "bg-[#09090b]",
+        "text_primary": "text-white",
+        "text_secondary": "text-gray-400",
+        "accent_bg": "bg-red-600",
+        "accent_text": "text-red-500",
+        "border_color": "border-zinc-800"
+      }
+    },
+    "layout": {
+      "spacing": {
+        "container_padding": "px-4 md:px-8 lg:px-12",
+        "section_gap": "py-20 md:py-32",
+        "element_gap": "gap-6 md:gap-10"
+      },
+      "grid_system": {
+        "bento": "grid grid-cols-1 md:grid-cols-3 gap-6",
+        "gallery": "grid grid-cols-2 md:grid-cols-4 gap-4",
+        "hero": "flex flex-col items-center justify-center min-h-screen text-center relative overflow-hidden"
+      },
+      "container": "max-w-7xl mx-auto"
+    },
+    "components": {
+      "buttons": {
+        "primary": "bg-red-600 hover:bg-red-700 text-white font-bold uppercase tracking-wider py-4 px-8 rounded-none skew-x-[-10deg] transition-all duration-300 hover:scale-105 shadow-[0_0_20px_rgba(220,38,38,0.5)]",
+        "secondary": "bg-transparent border-2 border-white text-white hover:bg-white hover:text-black font-bold uppercase tracking-wider py-4 px-8 rounded-none skew-x-[-10deg] transition-all duration-300",
+        "whatsapp": "bg-[#25D366] hover:bg-[#128C7E] text-white font-bold py-3 px-6 rounded-full flex items-center gap-2 transition-all shadow-lg hover:shadow-xl"
+      },
+      "cards": {
+        "service": "bg-zinc-900/50 border border-zinc-800 p-8 hover:border-red-600 transition-colors duration-300 group relative overflow-hidden",
+        "price": "bg-zinc-900 border border-zinc-800 p-8 flex flex-col items-center relative hover:scale-105 transition-transform duration-300",
+        "testimonial": "bg-zinc-900 p-8 border-l-4 border-red-600 italic text-gray-300"
+      },
+      "inputs": {
+        "default": "bg-zinc-950 border border-zinc-800 focus:border-red-600 text-white placeholder:text-zinc-600 rounded-none p-4 w-full transition-colors"
+      }
+    },
+    "effects": {
+      "glass": "backdrop-blur-xl bg-black/40 border-b border-white/10",
+      "neon_glow": "shadow-[0_0_15px_rgba(220,38,38,0.4)]",
+      "gradient_overlay": "bg-gradient-to-t from-black via-black/50 to-transparent",
+      "text_outline": "text-transparent bg-clip-text bg-gradient-to-b from-white to-zinc-500",
+      "grain": "before:content-[''] before:fixed before:inset-0 before:w-full before:h-full before:bg-[url('https://grainy-gradients.vercel.app/noise.svg')] before:opacity-5 before:pointer-events-none before:z-50"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1700784795176-7ff886439d79?q=85&w=1920&auto=format&fit=crop",
+      "about_bg": "https://images.unsplash.com/photo-1670004810567-f4328dcc983e?q=85&w=1080&auto=format&fit=crop",
+      "trainers": [
+        "https://images.unsplash.com/photo-1754475096386-b7a2a45a91fb?q=85&w=800&auto=format&fit=crop",
+        "https://images.pexels.com/photos/8874437/pexels-photo-8874437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https://images.pexels.com/photos/11241445/pexels-photo-11241445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1734668484998-c943d1fcb48a?q=85&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1710253705023-c5c6445c9fad?q=85&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1656769539039-9bed78f00463?q=85&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1742560306866-7a973878b378?q=85&w=800&auto=format&fit=crop"
+      ],
+      "services": {
+        "strength": "https://images.unsplash.com/photo-1770513649465-2c60c8039806?q=85&w=600&auto=format&fit=crop",
+        "cardio": "https://images.unsplash.com/photo-1637870473618-8c9fa7d11f0a?q=85&w=600&auto=format&fit=crop",
+        "crossfit": "https://images.unsplash.com/photo-1733286435420-6f7d722fd12a?q=85&w=600&auto=format&fit=crop"
+      }
+    },
+    "icons": {
+      "library": "lucide-react",
+      "preferred": ["Dumbbell", "Activity", "Clock", "MapPin", "Phone", "Mail", "Check", "Star", "Flame", "Zap", "Trophy", "Users"]
+    }
+  },
+  "content_strategy": {
+    "sections": {
+      "hero": {
+        "headline": "TRANSFORM YOUR BODY.\nTRANSFORM YOUR LIFE.",
+        "subheadline": "The premier hardcore training facility in Chandrapur. Forged in iron, built for beasts.",
+        "cta": "JOIN THE PACK"
+      },
+      "about": {
+        "title": "FORGED IN IRON",
+        "stats": ["3+ Years Experience", "15+ Certified Trainers", "500+ Active Members"]
+      },
+      "services": {
+        "items": [
+          {"title": "Personal Training", "desc": "1-on-1 coaching to smash your limits."},
+          {"title": "Muscle Gain", "desc": "Hypertrophy focused programs for mass."},
+          {"title": "Fat Loss", "desc": "High intensity intervals to shred fat."},
+          {"title": "Diet Guidance", "desc": "Nutrition plans that fuel your performance."}
+        ]
+      },
+      "pricing": {
+        "plans": [
+          {"name": "MONTHLY", "price": "₹1,500", "features": ["Gym Access", "General Trainer", "Locker Room"]},
+          {"name": "QUARTERLY", "price": "₹4,000", "features": ["Gym Access", "General Trainer", "Locker Room", "Diet Chart"], "popular": true},
+          {"name": "YEARLY", "price": "₹12,000", "features": ["Gym Access", "Personal Trainer (1mo)", "Locker Room", "Diet Chart", "T-Shirt"]}
+        ]
+      }
+    }
+  },
+  "technical_instructions": {
+    "libraries": {
+      "styling": "Tailwind CSS",
+      "components": "Shadcn UI (customized)",
+      "motion": "Framer Motion (for scroll reveals)",
+      "icons": "lucide-react",
+      "maps": "react-google-maps/api or iframe",
+      "toast": "sonner"
+    },
+    "layout_rules": [
+      "Use 'Oswald' font for all headings to maintain brand aggression.",
+      "Ensure all backgrounds are #09090b or darker. No light mode toggle.",
+      "Use Red (#dc2626) strictly for CTAs and accents. Do not overuse.",
+      "Input fields must be square (rounded-none) and dark.",
+      "Map filter: invert(90%) hue-rotate(180deg) to match dark theme."
+    ],
+    "accessibility": {
+      "contrast": "Ensure red text is only used on black if contrast > 4.5:1. Use brighter red (#ef4444) for text if needed.",
+      "motion": "Respect prefers-reduced-motion."
+    }
+  },
+  "universal_guidelines": [
+    "Do not center everything. Use left alignment for body text to improve readability.",
+    "Add 'data-testid' to all interactive elements.",
+    "Use generous padding (py-20 or py-32) between sections.",
+    "Add a subtle noise texture to the background to avoid flat colors."
+  ]
+}
